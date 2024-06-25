@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-// import { FaSearch } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
         //   onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button>
-          {/* <FaSearch className='text-slate-600' /> */}
+          <FaSearch className='text-slate-600' />
         </button>
       </form>
       <ul className='flex gap-4'>
